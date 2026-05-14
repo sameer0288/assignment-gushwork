@@ -1,7 +1,7 @@
 # Gushwork Web Development Assignment
 
 ## 🚀 Live Demo
-[**View Live Project Here**]()
+[**View Live Project Here**](https://sprightly-puppy-4b04fb.netlify.app/)
 
 ---
 
