@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gushwork HDPE Pipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-link" aria-label="Gushwork home">
+        <img src="./Asset/NavBarImg/mangalam_NavBar_Img.png" alt="Gushwork logo" class="brand-logo">
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li>
+            <a href="#products" class="nav-link" style="display:inline-flex;align-items:center;gap:4px;">
+              Products 
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="button primary-button">Contact Us</button>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <ul>
+          <li><a href="#overview" class="mobile-nav-link">Overview</a></li>
+          <li><a href="#specs" class="mobile-nav-link">Specifications</a></li>
+          <li><a href="#trust" class="mobile-nav-link">Trusted by</a></li>
+          <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+          <li class="mobile-nav-action"><button class="button primary-button" style="width: 100%;">Contact Us</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-image-panel">
+          <div class="main-image-card">
+            <div class="main-image-container" id="imageContainer">
+              <img src="./Asset/Frame-1.png" alt="Premium HDPE pipes and coils" class="main-image" id="mainImage">
+              <div class="zoom-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+              <div class="image-zoom-preview" id="zoomPreview" aria-hidden="true"></div>
+              <button class="carousel-arrow left-arrow" id="prevButton" aria-label="Previous image">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <button class="carousel-arrow right-arrow" id="nextButton" aria-label="Next image">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="thumbnail-strip" aria-label="Product image thumbnails">
+            <button class="thumbnail active" data-src="./Asset/Frame-1.png" aria-label="View image 1">
+              <img src="./Asset/Frame-1.png" alt="Thumbnail 1">
+            </button>
+            <button class="thumbnail" data-src="./Asset/Frame-2.jpg" aria-label="View image 2">
+              <img src="./Asset/Frame-2.jpg" alt="Thumbnail 2">
+            </button>
+            <button class="thumbnail" data-src="./Asset/Frame-3.jpg" aria-label="View image 3">
+              <img src="./Asset/Frame-3.jpg" alt="Thumbnail 3">
+            </button>
+            <button class="thumbnail empty-thumb" aria-hidden="true"></button>
+            <button class="thumbnail empty-thumb" aria-hidden="true"></button>
+            <button class="thumbnail empty-thumb" aria-hidden="true"></button>
+          </div>
+        </div>
+
+        <section class="hero-copy" id="overview">
+          <p class="breadcrumb">Products &gt; Two For One Twister</p>
+          <div class="badges-row">
+            <span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2b3990" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> BIS Certified</span>
+            <span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2b3990" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> ISO Certified</span>
+            <span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2b3990" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> CE Certified</span>
+          </div>
+
+          <h1 class="hero-title">Premium HDPE Pipes<br>for Modern<br>Infrastructure</h1>
+
+          <div class="pricing-card">
+            <div class="price-label">Price Range</div>
+            <div class="price-value">₹4,80,000 - 7,90,000</div>
+            <div class="price-meta-pills">
+              <span class="pill yellow-pill">Shipping: 6-12 days</span>
+              <span class="pill yellow-pill">Returns: Resolved within 7 days</span>
+            </div>
+            <div class="price-cert-pill">
+              <span class="pill gray-pill">Certifications: BIS Certified, ISO Certified</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <button class="button primary-button">Get Custom Quote</button>
+            <button class="button secondary-button">View Technical Specs <img src="./Asset/CaretRight.svg" alt="Arrow" class="button-icon"></button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="trust-section" id="trust">
+      <div class="container trust-grid">
+        <div class="trust-copy">
+          <p class="section-label">Trusted by hundreds of companies globally</p>
+          <h2 class="section-heading">Built for modern infrastructure and global projects</h2>
+        </div>
+        <div class="brand-grid">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+          <img src="./Asset/euroFlex.png" alt="Euroflex logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="container features-inner">
+        <div class="features-header">
+          <p class="section-label">Built for extreme conditions</p>
+          <h2 class="section-heading">Built to Last. Engineered to Perform.</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Superior Chemical Resistance</h3>
+            <p>Resists chemicals, acids, and alkalis, ensuring safe fluid transport in corrosive environments.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Exceptional Flexibility &amp; Durability</h3>
+            <p>Withstands ground movements with a 25x bend radius, making it ideal for seismic zones.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Leak-Proof Fusion Welding</h3>
+            <p>Single continuous system stronger than the pipe itself, eliminating joint leakages completely.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Cost-Effective Solution</h3>
+            <p>Low maintenance and 50-100 year service life provide the best return on investment.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Environmentally Sustainable</h3>
+            <p>100% recyclable materials with a low carbon footprint during manufacturing and transport.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><img src="./Asset/checkBox.svg" alt="Icon"></div>
+            <h3>Certified Quality Assurance</h3>
+            <p>Manufactured under strict guidelines to meet and exceed ISO, BIS, and CE international standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specs-section" id="specs">
+      <div class="container specs-grid">
+        <div class="specs-intro">
+          <h2 class="section-heading">Technical Specifications at a Glance</h2>
+          <p class="section-copy">Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+        </div>
+
+        <div class="specs-table">
+          <div class="specs-row specs-row-header">
+            <div class="specs-head">Parameter</div>
+            <div class="specs-head">Specification</div>
+          </div>
+          <div class="specs-row"><div>Pipe Diameter Range</div><div>20mm to 1600mm (1/4" to 63")</div></div>
+          <div class="specs-row"><div>Pressure Ratings</div><div>PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</div></div>
+          <div class="specs-row"><div>Standard Dimension Ratio</div><div>SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</div></div>
+          <div class="specs-row"><div>Operating Temperature</div><div>-40° to +60°C (-40° to +140°F)</div></div>
+          <div class="specs-row"><div>Service Life</div><div>50+ years at 20°C, PN 10</div></div>
+          <div class="specs-row"><div>Material Density</div><div>0.95 - 0.96 g/cm³</div></div>
+          <div class="specs-row"><div>Certification Standards</div><div>IS 5834, ISO 4427, ASTM D3035</div></div>
+          <div class="specs-row"><div>Joint Type</div><div>Butt fusion, electrofusion, mechanical</div></div>
+          <div class="specs-row"><div>Coil Lengths</div><div>Up to 500m for smaller diameters</div></div>
+          <div class="specs-row"><div>Country of Origin</div><div><span class="country-badge"><img src="https://img.icons8.com/color/48/india-circular.png" alt="India flag"> India</span></div></div>
+        </div>
+
+        <div class="download-card">
+          <button class="button download-button">
+            <img src="./Asset/download_Icon.png" alt="Download" class="download-icon">
+            Download full technical datasheet
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro">
+          <p class="section-label">Common Queries</p>
+          <h2 class="section-heading">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What are the standard sizes available for HDPE pipes?
+              <span class="faq-icon"></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Our HDPE pipes range from 20mm up to 1600mm in diameter, accommodating everything from residential plumbing to large-scale industrial fluid transport.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How long is the expected service life?
+              <span class="faq-icon"></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>When installed correctly, our HDPE pipes have an expected service life of over 50 years under standard operating conditions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Are these pipes suitable for drinking water?
+              <span class="faq-icon"></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Yes, our pipes are manufactured using food-grade, non-toxic materials and are fully certified for the safe transport of potable drinking water.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-label">Still have questions?</p>
+          <h2 class="section-heading">Get in touch with our team</h2>
+          <div class="contact-details">
+            <div class="detail-item"><strong>Email:</strong> info@mangalamhdpe.com</div>
+            <div class="detail-item"><strong>Phone:</strong> +91 98765 43210</div>
+            <div class="detail-item"><strong>Address:</strong> 123 Industrial Area, Phase 1, New Delhi, India</div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="How can we help?" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="button primary-button w-full">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="./Asset/NavBarImg/mangalam_NavBar_Img.png" alt="Gushwork logo" class="footer-logo">
+          <p>Premium HDPE Pipes engineered for modern infrastructure, offering leak-proof performance and a 50+ year service life.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#overview">About Us</a></li>
+            <li><a href="#hero">Products</a></li>
+            <li><a href="#specs">Specifications</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Twitter">TW</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+            <a href="#" aria-label="Instagram">IG</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sameer Ali — Gushwork Assignment. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
